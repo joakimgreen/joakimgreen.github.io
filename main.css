@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&display=swap');
+body {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	margin: 0;
+	/*background-color: #f2eae4;*/
+	font-family: "Inter Tight", sans-serif;
+	font-weight: 500;
+	color: #222;
+	cursor: default;
+	padding: 2rem;
+	margin-top: 2rem;
+}
+a {
+	cursor:  pointer !important;
+}
+::-moz-selection {
+    background-color: #222;
+    color: #fff;
+}
+::selection {
+    background-color: #222;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+h1, h1 *, h3, h3 *, p, p * {
+	line-height: 1.6rem;
+	font-size: 1.3rem !important;
+	text-align: justify;
+	font-weight: 500;
+	max-width: 768px;
+}
+h1, h3 {
+	display: inline;
+}
+strong {
+	font-weight: 600 !important;
+}
+small {
+	font-size: 1rem !important;
+}
+sup {
+	font-size: 70% !important;
+	position: relative;
+	top: -0.03em;
+}
+h1 a, h3 a, p a {
+	color:#222;
+	font-size: inherit;
+	text-decoration:none;
+	border-bottom: 1.5px solid #222;
+	transition: linear padding 100ms;
+}
+h1 a:hover, h3 a:hover, p a:hover {
+	padding-bottom: 1px;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	max-width: 458px;
+}
