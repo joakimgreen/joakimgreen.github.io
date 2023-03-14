@@ -9,7 +9,7 @@ body {
 	color: #222;
 	cursor: default;
 	padding: 2rem;
-	margin-top: 2rem;
+	margin-top: 3rem;
 }
 a {
 	cursor:  pointer !important;
@@ -35,6 +35,7 @@ h1, h1 *, h3, h3 *, p, p * {
 }
 h1, h3 {
 	display: inline;
+	text-align: left;
 }
 strong {
 	font-weight: 600 !important;
@@ -65,3 +66,11 @@ img {
 	margin-bottom: 20px;
 	max-width: 458px;
 }
+@media only screen and (max-width: 498px) {
+	body {
+	  margin-top: 0;
+	}
+	h3 {
+		display: block;
+	}
+  }
