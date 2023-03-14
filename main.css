@@ -46,7 +46,8 @@ small {
 sup {
 	font-size: 70% !important;
 	position: relative;
-	top: -0.03em;
+	top: 0.1em;
+	left: 0.1em;
 }
 h1 a, h3 a, p a {
 	color:#222;
