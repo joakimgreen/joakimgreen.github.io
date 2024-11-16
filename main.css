@@ -28,9 +28,10 @@ h1, h2, h3, h4, h5, h6, ul, ol {
 h1, h1 *, h2, h2 *, p, p * {
 	line-height: 1.6rem;
 	font-size: 1.3rem !important;
-	text-align: justify;
 	font-weight: 500;
 	max-width: 768px;
+	text-wrap: pretty;
+	white-space: pre-line;
 }
 h1, h2 {
 	display: inline;
@@ -66,12 +67,24 @@ img {
 	margin-bottom: 20px;
 	max-width: 458px;
 }
+.flag {
+	height: 0.74em;
+}
+.flag__background {
+	fill: #222;
+}
+.flag__cross {
+	stroke: #fff;
+}
 @media only screen and (max-width: 498px) {
 	body {
 		margin-top: 0;
 	}
 	h2 {
 		display: block;
+	}
+	p {
+		white-space: normal;
 	}
 }
 @media (prefers-color-scheme: dark) {
@@ -82,5 +95,11 @@ img {
 	h1 a, h2 a, p a {
 		color: #fff !important;
 		border-color: #fff !important;
+	}
+	.flag__background {
+		fill: #fff;
+	}
+	.flag__cross {
+		stroke: #222;
 	}
 }
